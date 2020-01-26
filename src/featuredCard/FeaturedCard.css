@@ -1,0 +1,17 @@
+.featured-card{
+    margin: 20px 0  20px;
+    border-radius: 10px;
+    background: rgb(22, 22, 22);
+    color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.featured-image{
+    border: 1px solid white;
+    height: 100%;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

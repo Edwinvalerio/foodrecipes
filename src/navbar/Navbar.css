@@ -1,0 +1,40 @@
+nav {
+    background: black;
+    height: 50px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #nav-btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+  }
+  
+  .filed-btn {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 80px;
+  }
+  
+  #menu-links {
+    display: flex;
+    list-style-type: none;
+  }
+  #menu-links li {
+    padding: 15px;
+  }
+
+  #menu-links li:hover{
+    background: grey;
+    cursor: pointer;
+  }
