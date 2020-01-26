@@ -15,7 +15,7 @@ export default class Navbar extends Component {
                             <li>Recipe</li>
                         </div>
                         <div id='nav-btn-container'>
-                            <a>Log in</a>
+                            <a href="/">Log in</a>
                             <button class='filed-btn'>Sign Up</button>
                         </div>
                     </nav>

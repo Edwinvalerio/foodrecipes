@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import Navbar from './navbar/Navbar'
+import Footer from './footer/Footer'
 import './App.css';
 import FeaturedCard from './featuredCard/FeaturedCard'
 
@@ -12,7 +13,9 @@ function App() {
         <Navbar />
         <FeaturedCard />
 
+        <Footer />
       </div>
+
     </div>
   );
 }
