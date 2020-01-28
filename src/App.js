@@ -1,10 +1,10 @@
 import React from "react";
-import Trending from "./Trendding/Trending";
+// import Trending from "./Trendding/Trending";
 import Navbar from "./navbar/Navbar";
-import { Route, Switch, NavLink, Router } from "react-router";
+import { Route } from "react-router";
 
 import "./App.css";
-import FeaturedCard from "./featuredCard/FeaturedCard";
+// import FeaturedCard from "./featuredCard/FeaturedCard";
 import HomePage from "./homePage/HomePage";
 
 function App() {
