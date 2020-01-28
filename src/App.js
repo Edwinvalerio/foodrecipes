@@ -1,21 +1,19 @@
-import React from 'react';
+import React from "react";
+import Trending from "./Trendding/Trending";
+import Navbar from "./navbar/Navbar";
+import { Route, Switch, NavLink, Router } from "react-router";
 
-import Navbar from './navbar/Navbar'
-import Footer from './footer/Footer'
-import './App.css';
-import FeaturedCard from './featuredCard/FeaturedCard'
-
+import "./App.css";
+import FeaturedCard from "./featuredCard/FeaturedCard";
+import HomePage from "./homePage/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
+      <div className="container">
         <Navbar />
-        <FeaturedCard />
-
-        <Footer />
+        <Route exact path="/" component={HomePage} />
       </div>
-
     </div>
   );
 }

@@ -1,0 +1,38 @@
+#trending-title {
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+
+.fire-icon {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}
+
+.trending-card-image {
+  min-height: 200px;
+  min-width: 200px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.trading-image-cards {
+  margin: 2px 10px;
+}
+.food-title-trending {
+  color: white;
+}
+
+.horizontal-scrow {
+  overflow: scroll;
+  overflow-x: auto;
+  -webkit-box-shadow: inset 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+}
