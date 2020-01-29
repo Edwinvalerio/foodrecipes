@@ -9,10 +9,10 @@
 <li>React Native</li>
 
 <p>Home page</p>
-<img src='media/home.png' alt='profile'>
+<img src='public/media/home.png' alt='profile'>
 
 <p>Profile</p>
-<img src='media/profile.png' alt='profile'>
+<img src='public/media/profile.png' alt='profile'>
 
 <p>Recipe</p>
-<img src='media/single.png' alt='profile'>
+<img src='public/media/single.png' alt='profile'>
