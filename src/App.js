@@ -5,15 +5,17 @@ import { Route } from "react-router";
 
 import "./App.css";
 // import FeaturedCard from "./featuredCard/FeaturedCard";
+import Footer from "./footer/Footer";
 import HomePage from "./homePage/HomePage";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <div className="container">
-        <Navbar />
         <Route exact path="/" component={HomePage} />
       </div>
+      <Footer />
     </div>
   );
 }

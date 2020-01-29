@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Trending from "../Trendding/Trending";
-import FeaturedCard from "../featuredCard/FeaturedCard";
+import SearchCard from "../searchCard/searchCard";
 import "./HomePage.css";
-// import Video from "./";
 
 export default class HomePage extends Component {
   render() {
@@ -23,8 +22,11 @@ export default class HomePage extends Component {
             />
           </div>
         </div>
-        <Trending />
-        <FeaturedCard />
+        <SearchCard title={"Pizza"} />
+        <SearchCard title={"HotDogs"} />
+        <SearchCard title={"pasta"} />
+        <SearchCard title={"cheese"} />
+        <Trending title={"Pie"} />
       </div>
     );
   }
