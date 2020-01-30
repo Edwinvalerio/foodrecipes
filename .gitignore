@@ -1,1 +1,6 @@
 /node_modules
+.DS_Store
+public/media/video/.DS_Store
+public/.DS_Store
+public/media/.DS_Store
+.DS_Store

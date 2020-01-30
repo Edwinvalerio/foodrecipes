@@ -13,16 +13,22 @@ export default class searchCard extends Component {
           <div
             className="search-card-image"
             style={{
-              backgroundImage: `url('https://picsum.photos/200/${Math.floor(
-                Math.random() * 300 + 300
-              )}')`
+              backgroundImage: `url('https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')`
             }}
           ></div>
-          <div className="column is-6">
+
+          <div className="column is-4">
             <div>
               <h1 className="seactcard-food-title">{this.props.title}</h1>
               <p>@Stephanie32</p>
             </div>
+          </div>
+          <div className="column is-2">
+            <i class="fas fa-carrot"></i>
+
+            <span aria-label="sheep " className="calories-count">
+              320
+            </span>
           </div>
           <div className="column is-2">
             <i class="far fa-clock "></i>

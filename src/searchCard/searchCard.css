@@ -16,7 +16,9 @@
 
 .search-card-image {
   max-width: 100px;
+  height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .time-icon {
@@ -25,7 +27,8 @@
   width: 100px;
 }
 
-.fa-clock {
+.fa-clock,
+.fa-carrot {
   font-size: 2em;
   color: white;
 }
@@ -49,7 +52,8 @@
   color: #1fb854;
 }
 
-.hours-to-make {
+.hours-to-make,
+.calories-count {
   font-weight: 100;
   color: white;
   font-size: 2em;

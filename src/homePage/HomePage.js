@@ -3,6 +3,9 @@ import Trending from "../Trendding/Trending";
 import SearchCard from "../searchCard/searchCard";
 import "./HomePage.css";
 
+let videos = ["meat", "sushi"];
+let selectedVideo = videos[Math.floor(Math.random() * videos.length)];
+
 export default class HomePage extends Component {
   render() {
     return (
@@ -10,7 +13,7 @@ export default class HomePage extends Component {
         <div id="video-container">
           <video loop autoPlay id="myVideo">
             <source
-              src={window.location.origin + "/media/video/meat.mp4"}
+              src={window.location.origin + `/media/video/${selectedVideo}.mp4`}
               type="video/mp4"
             />
           </video>
@@ -26,7 +29,14 @@ export default class HomePage extends Component {
         <SearchCard title={"HotDogs"} />
         <SearchCard title={"pasta"} />
         <SearchCard title={"cheese"} />
-        <Trending title={"Pie"} />
+        <Trending
+          title={"Pie"}
+          imageUrl={[
+            "",
+            "media/placeholder/burito.jpg",
+            "media/placeholder/pancake.jpg"
+          ]}
+        />
       </div>
     );
   }

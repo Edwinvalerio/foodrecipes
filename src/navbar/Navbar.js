@@ -8,7 +8,7 @@ export default class Navbar extends Component {
         <div class="container">
           <nav id="navbar">
             <NavLink id="logo" to="/">
-              FoodMe
+              <span id="go">Go</span>FoodApp
             </NavLink>
 
             <div id="menu-links">

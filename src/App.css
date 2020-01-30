@@ -32,7 +32,3 @@ body {
 .columns {
   display: flex;
 }
-
-a:visited {
-  color: white;
-}

@@ -16,6 +16,10 @@ nav {
   font-size: 2em;
 }
 
+#go {
+  color: #1fb854;
+  font-weight: bold;
+}
 #nav-btn-container {
   display: flex;
   justify-content: space-between;
