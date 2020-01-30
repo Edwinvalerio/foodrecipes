@@ -1,0 +1,67 @@
+/**
+*
+* SearchCard
+*
+*/
+
+.searchCard-container {
+  height: 100px;
+  z-index: 99;
+  margin: 15px 5px;
+  background: #151515;
+}
+
+.searchCard-container:hover {
+  background: #0f0f0f;
+  cursor: pointer;
+  filter: grayscale(0%);
+  border-radius: 30px;
+  transition: 0.3s;
+  transform: translateX(-10px);
+}
+
+.search-card-image {
+  max-width: 100px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.time-icon {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+}
+
+.fa-clock,
+.fa-carrot {
+  font-size: 2em;
+  color: white;
+}
+
+.searchCard-container .column {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.seactcard-food-title {
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+  padding: 0;
+}
+
+.like-counts {
+  font-weight: bold;
+  font-size: 2em;
+  color: #1fb854;
+}
+
+.hours-to-make,
+.calories-count {
+  font-weight: 100;
+  color: white;
+  font-size: 2em;
+  margin: 0 5px;
+}
