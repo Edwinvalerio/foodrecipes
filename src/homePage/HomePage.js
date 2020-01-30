@@ -7,9 +7,13 @@ let videos = ["meat", "sushi"];
 let selectedVideo = videos[Math.floor(Math.random() * videos.length)];
 
 export default class HomePage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
-      <div>
+      <div className="container">
         <div id="video-container">
           <video loop autoPlay id="myVideo">
             <source
@@ -29,14 +33,13 @@ export default class HomePage extends Component {
         <SearchCard title={"HotDogs"} />
         <SearchCard title={"pasta"} />
         <SearchCard title={"cheese"} />
-        <Trending
-          title={"Pie"}
-          imageUrl={[
-            "",
-            "media/placeholder/burito.jpg",
-            "media/placeholder/pancake.jpg"
-          ]}
-        />
+        <SearchCard title={"cheese"} />
+        <SearchCard title={"cheese"} />
+        <SearchCard title={"cheese"} />
+        <div className="loadmore-containers">
+          <button className="load-more-btn">Load More</button>
+        </div>
+        <Trending />
       </div>
     );
   }

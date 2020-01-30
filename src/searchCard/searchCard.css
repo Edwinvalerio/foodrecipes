@@ -3,15 +3,14 @@
   z-index: 99;
   margin: 15px 5px;
   background: #151515;
+  transition: 0.3s;
 }
 
 .searchCard-container:hover {
   background: #0f0f0f;
   cursor: pointer;
   filter: grayscale(0%);
-  border-radius: 30px;
-  transition: 0.3s;
-  transform: translateX(-10px);
+  transform: translateY(-10px);
 }
 
 .search-card-image {
@@ -58,4 +57,8 @@
   color: white;
   font-size: 2em;
   margin: 0 5px;
+}
+
+.calories-count span {
+  font-size: 20px;
 }

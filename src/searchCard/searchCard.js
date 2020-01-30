@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CountUp from "react-countup";
 import "./searchCard.css";
 
 export default class searchCard extends Component {
@@ -23,18 +24,25 @@ export default class searchCard extends Component {
               <p>@Stephanie32</p>
             </div>
           </div>
+
           <div className="column is-2">
             <i class="fas fa-carrot"></i>
 
-            <span aria-label="sheep " className="calories-count">
-              320
+            <span aria-label="sheep " className="hours-to-make">
+              <CountUp start={0} end={100} duration={Math.random() * 5} />
             </span>
           </div>
           <div className="column is-2">
             <i class="far fa-clock "></i>
 
             <span aria-label="sheep " className="hours-to-make">
-              3.4hrs
+              <CountUp
+                start={0}
+                end={2.3}
+                decimals={2}
+                duration={Math.random() * 5}
+              />
+              Hrs
             </span>
           </div>
           <div className="column is-2">
@@ -42,7 +50,15 @@ export default class searchCard extends Component {
               <span role="img" aria-label="sheep" className="delicius-emoji">
                 😋
               </span>
-              <span> 12.2K</span>
+              <span>
+                <CountUp
+                  start={0}
+                  end={123.32}
+                  decimals={1}
+                  duration={Math.random() * 5}
+                />
+                K
+              </span>
             </h1>
           </div>
         </div>

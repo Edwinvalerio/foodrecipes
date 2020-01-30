@@ -25,7 +25,7 @@
 #search-bar-home {
   height: 40px;
   border-radius: 30px;
-  border: 1px solid #1fb854;
+  border: 2px solid #1fb854;
   max-width: 400px;
   width: 100%;
   outline: none;
@@ -33,4 +33,28 @@
   font-size: 1em;
   color: white;
   background: transparent;
+}
+
+.loadmore-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.load-more-btn:hover {
+  cursor: pointer;
+  background: #149240;
+}
+
+.load-more-btn {
+  color: white;
+  max-width: 100px;
+  height: 30px;
+  width: 100%;
+  background: #1fb854;
+  border-radius: 35px;
+  border: none;
+  outline: none;
 }
