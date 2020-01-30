@@ -1,6 +1,10 @@
-/node_modules
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
 .DS_Store
-public/media/video/.DS_Store
-public/.DS_Store
-public/media/.DS_Store
-.DS_Store
+npm-debug.log
+.idea

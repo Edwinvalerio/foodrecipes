@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+  - 'node'
+  - 'lts/*'
+
+services:
+  - xvfb
+
+script:
+  - pnpm run build
+
+before_install:
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0
+
+install:
+  - pnpm install
+
+notifications:
+  email:
+    on_failure: change
+
+cache:
+  directories:
+    - node_modules
