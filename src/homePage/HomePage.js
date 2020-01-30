@@ -13,7 +13,7 @@ export default class HomePage extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <div id="video-container">
           <video loop autoPlay id="myVideo">
             <source
