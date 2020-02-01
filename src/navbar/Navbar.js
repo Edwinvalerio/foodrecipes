@@ -1,11 +1,25 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import Popup from "reactjs-popup";
+
 export default class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loginWindow: true
+    };
+    this.openLogInWindow = this.openLogInWindow.bind(this);
+  }
+  openLogInWindow() {
+    this.setState({
+      openLogInWindow: !this.state.openLogInWindow
+    });
+  }
   render() {
     return (
       <div>
-        <div class="container">
+        <div className="container">
           <nav id="navbar">
             <NavLink id="logo" to="/">
               <span id="go">Go</span>FoodApp
@@ -42,15 +56,29 @@ export default class Navbar extends Component {
               </NavLink>
             </div>
             <div id="nav-btn-container">
-              <NavLink
+              {/* <button
                 to="login"
                 id="login-btn"
                 activeClassName="nav-link-active"
+                onClick={this.openLogInWindow}
               >
                 Log in
-              </NavLink>
+              </button> */}
+              <Popup
+                trigger={
+                  <button id="login-btn">
+                    <i className="fas fa-user-alt"></i>
+                  </button>
+                }
+                modal
+                closeOnDocumentClick
+              >
+                <div>
+                  <h1>this will be the login page</h1>
+                </div>
+              </Popup>
               <NavLink
-                class="filed-btn"
+                className="filed-btn"
                 to="signup"
                 activeClassName="nav-link-active"
               >

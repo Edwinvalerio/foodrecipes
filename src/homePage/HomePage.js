@@ -29,13 +29,13 @@ export default class HomePage extends Component {
             />
           </div>
         </div>
-        <SearchCard title={"Pizza"} />
-        <SearchCard title={"HotDogs"} />
-        <SearchCard title={"pasta"} />
-        <SearchCard title={"cheese"} />
-        <SearchCard title={"cheese"} />
-        <SearchCard title={"cheese"} />
-        <SearchCard title={"cheese"} />
+        <SearchCard title={"Pizza"} id={1234} />
+        <SearchCard title={"HotDogs"} id={1234} />
+        <SearchCard title={"pasta"} id={1234} />
+        <SearchCard title={"cheese"} id={1234} />
+        <SearchCard title={"cheese"} id={1234} />
+        <SearchCard title={"cheese"} id={1234} />
+        <SearchCard title={"cheese"} id={1234} />
         <div className="loadmore-containers">
           <button className="load-more-btn">Load More</button>
         </div>

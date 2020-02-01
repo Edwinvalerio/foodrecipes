@@ -7,7 +7,7 @@ export default class Footer extends Component {
         <div className="columns">
           <div className="column is-5">
             <h6>About</h6>
-            <p class="text-justify">
+            <p className="text-justify">
               .com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
               upcoming programmers with the code. focuses on providing the most
               efficient code or snippets as the code wants to be simple. We will
@@ -18,7 +18,7 @@ export default class Footer extends Component {
           </div>
           <div className="column">
             <h6>Categories</h6>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>1</li>
               <li>1</li>
               <li>1</li>
@@ -27,10 +27,10 @@ export default class Footer extends Component {
           </div>
           <div className="column">
             <h6>Follow Us</h6>
-            <ul class="footer-links">
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-pinterest"></i>
+            <ul className="footer-links">
+              <i className="fab fa-facebook"></i>
+              <i className="fab fa-instagram"></i>
+              <i className="fab fa-pinterest"></i>
             </ul>
           </div>
         </div>

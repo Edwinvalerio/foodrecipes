@@ -13,9 +13,9 @@ export default class FeaturedCard extends Component {
               Recipe contentest is like our constantly in progess dinner party
               and are invited
             </p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
             <div>
               <a className="green-btn" href="/">
                 See Recipe

@@ -24,8 +24,6 @@
 
 #search-bar-home {
   height: 40px;
-  border-radius: 30px;
-  border: 2px solid #1fb854;
   max-width: 400px;
   width: 100%;
   outline: none;
@@ -33,6 +31,8 @@
   font-size: 1em;
   color: white;
   background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
 }
 
 .loadmore-containers {

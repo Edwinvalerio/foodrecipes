@@ -7,6 +7,7 @@ import "./App.css";
 // import FeaturedCard from "./featuredCard/FeaturedCard";
 import Footer from "./footer/Footer";
 import HomePage from "./homePage/HomePage";
+import SignUp from "./signUpPage/SignUp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="container">
         <Route exact path="/" component={HomePage} />
         <Route exact path="/feature" component={FeaturePage} />
+        <Route exact path="/signup" component={SignUp} />
       </div>
       <Footer />
     </div>
