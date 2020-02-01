@@ -12,6 +12,9 @@
 
 https://gofoodapp.slack.com/?fbclid=IwAR3u_dKv-K2x7a7gVMDVFbrIWwKyu9HRYgGwbLDrdVG7KMSwpBJAAF4aLvc
 
+## Back-End project (must be use in order to run the App)
+https://github.com/Edwinvalerio/foodrecipes-backEnd
+
 ## Installation
 
 OS X & Linux:
