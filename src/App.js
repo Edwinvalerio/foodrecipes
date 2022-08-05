@@ -1,9 +1,9 @@
 import React from "react";
 // import Trending from "./Trendding/Trending";
-import Navbar from "./navbar/Navbar";
 import { Route } from "react-router";
-import FeaturePage from "./featurePage/featurePage";
 import "./App.css";
+import FeaturePage from "./featurePage/featurePage";
+import Navbar from "./navbar/Navbar";
 // import FeaturedCard from "./featuredCard/FeaturedCard";
 import Footer from "./footer/Footer";
 import HomePage from "./homePage/HomePage";
